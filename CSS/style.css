@@ -1,0 +1,151 @@
+body{
+color: #40514E;
+  margin: 0;
+  text-align: center;
+/*  font-family: verdana, arial,sans-serif;*/  /*puedo colocar varias tipos de fonts pertenecientes a la familia sans serif. el browser los elige aocrde a disponibilidad*/
+font-family:  'Merriweather', serif;
+}
+h1{
+font-size: 5.625rem; /* 16px  = 100% = 1em*/
+/* is always better to use  rem, due to the fact that they are responsive*/
+/* font size inherit the size of the font, so it will be huge. Use rem to avoid that*/
+  width: 30%;
+  margin: 50px auto 0 auto; /* top  right  bottom left*/
+  font-family: 'Sacramento', cursive;
+  color: #66bfbf;
+  line-height: 2;
+
+}
+
+p {
+
+  line-height: 2;
+}
+
+hr{
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+
+h2 {
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999e;
+
+}
+.Top {
+  background-color: #EAf6f6;
+  position: relative;
+  padding-top: 100px;/*Separa el div 100px del tope*/
+}
+
+.MDiv{
+  margin: 100px 0;
+
+}
+.BDiv{
+  background-color: #66BFBF;
+
+}
+
+.contact-me{
+
+width: 40%;
+margin: 40px auto 60px;
+}
+.intro-des{
+
+  width: 30%;
+  margin: auto;
+}
+
+.B-Cloud {
+  position: absolute; /*posicionado con relacion al elemento que la contiene*/
+  left: 300px;
+  bottom: 300px;
+
+}
+
+.T-Cloud {
+  position: absolute;
+  right: 300px;
+  top: 300px;
+
+
+}
+
+.skill-row{
+
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2; /* espaciado entre lineas*/
+}
+.skill-img{
+
+  width: 25%;
+  float: left; /* esta propiedad permite que el texto este al lado de la imagen*/
+  margin-right: 30px;
+}
+
+.skill-img2{
+
+  width: 25%;
+  float: right;; /* esta propiedad permite que el texto este al lado de la imagen*/
+  margin-left: 30px;
+}
+
+
+a{
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration:none;
+}
+a:hover{
+
+  color: #eaf6f6;
+}
+
+
+.web{
+  text-decoration: underline;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #2980b9);
+  background-image: -moz-linear-gradient(top, #11cdd4, #2980b9);
+  background-image: -ms-linear-gradient(top, #11cdd4, #2980b9);
+  background-image: -o-linear-gradient(top, #11cdd4, #2980b9);
+  background-image: linear-gradient(to bottom, #11cdd4, #2980b9);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #3498db);
+  background-image: -moz-linear-gradient(top, #30e3cb, #3498db);
+  background-image: -ms-linear-gradient(top, #30e3cb, #3498db);
+  background-image: -o-linear-gradient(top, #30e3cb, #3498db);
+  background-image: linear-gradient(to bottom, #30e3cb, #3498db);
+  text-decoration: none;
+}
