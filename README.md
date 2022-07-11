@@ -1,8 +1,5 @@
 - 👋 Hi, I’m @orlando67a
 
-I'm  a Software engineering student, based on Dominican Republic.
-
-Trying to master  JavaScript, node.js 
 
 You can reach me at oa.rodriguezramirez@gmail.com
 
