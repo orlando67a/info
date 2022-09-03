@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @orlando67a
 
 
-You can reach me at oa.rodriguezramirez@gmail.com
+
 
 <!---
 orlando67a/orlando67a is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
